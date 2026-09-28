@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.main-header {
+    background-color: #018f26;
+}
+
+.header-logo img {
+    width: 50px;
+    margin: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center ;
+}
+
+.header-sosmed {
+    margin-left:  auto;
+}
+.header-sosmed img{
+    width: 40px;
+    height: auto;
+}
+.header-content h1{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.header-sub {
+    background-color: #00631a;
+}
+.header-nav{
+    margin 0 -20px;
+}
+
+.header-nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+.banner img {
+    width: 100%;
+    height: 550%;
+    object-fit: cover;
+}
+.tagline{
+    text-align: center;
+    background-color: #018f26;
+    padding: 30px 20px;
+    margin-top: -5px;
+    color: #ffffff;
+}
+
+.tagline h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+#berita {
+    padding: 40px 0px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.berita-gambar img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+ .berita-deskripsi h4 {
+    margin-top: 0;
+ }
+
+ .berita-tombol {
+    text-decoration: none;
+    background-color: #00631a;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 14px;
+ }
+/* FOOTER */
+.footer {
+    background-color: #050505;
+    color: white;
+    padding: 25px 8% ;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-info h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.footer-info p {
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-info h3 {
+        font-size: 18px;
+    }
+}
+ 
+/* BAGIAN ATAS — HITAM */
+.footer-top {
+    background-color: #000000;
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.footer-logo img {
+    width: 90px;
+    height: auto;
+}
+
+.footer-info h3 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0 0 8px 0;
+}
+
+.footer-info p {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 6px 0;
+}
+

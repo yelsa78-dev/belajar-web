@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1 class="text-danger text-center mt-4">Belajar pakai bootstrap</h1>
+        <!-- 
+        Warna di bootstrap :
+        primary (biru)
+        secondary(abu abu)
+        danger(merah)
+        warning(kuning)
+        success(hijau)
+        info(biru muda)
+        dark(hitam) 
+        -->
+        <button class="btn btn-danger rounded-pill">Klik saya</button>
+        <button class="btn btn-primary rounded-pill">Klik saya</button>
+        <button class="btn btn-warning rounded-pill">Klik saya</button>
+        <button class="btn btn-secondary rounded-pill">Klik saya</button>
+        <button class="btn btn-success rounded-pill">Klik saya</button>
+        <button class="btn btn-dark rounded-pill">Klik saya</button>
+        <button class="btn btn-info rounded-pill">Klik saya</button>
+    </div>
+    <!-- 
+    Tugas: buat header warna biru,dan tulisan link nya berwarna putih
+    hint: gunakan bg- -->
+
+    <header>
+        <div class="container d-flex align-items-center bg-primary mt-4">
+            <div class="p-2">
+                <img src="assets/images/logo.webp" width="50px">
+            </div>
+            <div class="ms-auto ">
+                <a href="#" class="text-light mt-3 text-decoration-none">Home</a>
+                <a href="#" class="text-light mt-3 text-decoration-none">About</a>
+                <a href="#" class="text-light mt-3 text-decoration-none">contact</a>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- GRID SYSTEM -->
+    <div class="row">
+        <div class="col-md-4">
+            <img src="assets/images/smkn3metro.jpg" width="100%">
+        </div>
+        <div class="col md-6">
+            <h2>Ini judul berita</h2>
+            <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem delectus vel temporibus
+                est ipsa tempora modi vitae molestias eos hic, quia velit iure eum doloribus, incidunt aliquid
+                reiciendis amet.</p>
+        </div>
+    </div>
+</body>
+
+</html>
